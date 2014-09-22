@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".serv-item").hide()
+    $("#default").show()
+    $(".serv-btn").click(function() {
+        $(".serv-btn").removeClass("services-sidebar-menu-selected")
+        var key = $(this).attr("name")
+        $(this).addClass("services-sidebar-menu-selected")
+        $(".serv-item").hide()
+        $("#" + key).toggle()
+    })
+})
+</script>
+
+<body>
+    <div class="banner-bar">
+        <div class="container">
+            <div class="col-xs-1 no-gutter">
+                <a href="index.html">
+                    <img src="images/nform-logo.jpg" class="logo" />
+                </a>
+            </div>
+            <div class="col-xs-9 hidden-xs no-gutter">
+                <nav role="navigation" class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">About</a>
+                                    </li>
+                                    <li><a href="services.html">Services</a>
+                                    </li>
+                                    <li><a href="#">Events</a>
+                                    </li>
+                                    <li class="active"><a href="casestudies.html">Case Studies</a>
+                                    </li>
+                                    <li><a href="#">Ideas</a>
+                                    </li>
+                                    <li><a href="#">UX Cards</a>
+                                    </li>
+                                    <li><a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-xs-2 hidden-xs no-gutter">
+                <img src="images/search-bar.jpg" class="logo img-responsive" />
+            </div>
+        </div>
+    </div>
+    <div class="banner-sub">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="banner-desc-sub">
+                        <h1>Case Studies</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-spacer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copy">
+                        <h1>An Integrated Intranet</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="stroke"></div>
+                </div>
+            </div>
+            <div class="row pad-top">
+                <div class="col-xs-12 col-md-3">
+                    <img src="images/case-logo.jpg" />
+                    <div class="title-marker pad-top">
+                        <p>Services Provided</p>
+                    </div>
+                    <div class="copy service-listing">
+						<a href="service-description.html">Content Analysis</a>
+						<br/><a href="service-description.html">Strategic Planning</a>
+						<br/><a href="service-description.html">Information Architecture</a>
+						<br/><a href="service-description.html">Wireframes</a>
+						<br/><a href="service-description.html">Metadata Schema</a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="copy">
+                        <h2>Overview</h2>
+                        <p>
+                        When Servus Credit Union acquired several other credit unions, internal information was spread across four intranets containing overlapping and out-dated content. Employees were left frustrated by how difficult it was to find colleagues with the right skills that were located at other locations. 
+                        </p>	
+                        <p>	
+						Servus needed an integrated intranet. Migrating content from legacy intranets to a new consistent platform posed many challenges but Servus was ready to move forward and onto SharePoint 2010.
+						</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pad-top">
+                <div class="col-xs-12 col-md-4">
+                    <div class="promo-desc">
+                        <img src="images/case-1.jpg" />
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="promo-desc">
+                        <img src="images/case-2.jpg" />
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="promo-desc">
+                        <img src="images/case-3.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row pad-top">
+                <div class="col-xs-12 col-md-6">
+                    <div class="copy">
+                        <h2>Solution</h2>
+                        <p>
+                        We worked with Servus’ in-house team and another vendor, Habanero. Our goal: balance the need of timely access to relevant information with organizational communications focus. This project involved inventorying nearly 16,000 pages of content spread across four intranets and planning their integration into one intranet. 
+                    	</p>
+                    	<p>
+						We designed the core information architecture—the metadata system—connecting policies, procedures, banking systems, branch locations and other business details for staff to quickly find content. Site content was organized to support employees in member service functions. 
+						</p>
+						<p>
+						This project birthed a new survey method we call the content prioritization survey. We used the new method to assess staff intranet usage across branches and job functions to prioritize content. Of course we also used other survey-based evaluation tools to validate label and structural decisions.
+                    	</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="copy">
+                        <h2>Result</h2>
+                        <p>
+                        The final intranet highlights included:
+						</p>
+							<ul>
+								<li>A homepage containing a carousel displaying current member offers and promotions, a colleague finder, recently updated policies and procedures, and time-sensitive rates.
+								<li>Profiles for every employee containing their photo and key details that can be personalized to better communicate skills and experience.
+								<li>A news and events section serving as a single area for employees to access information about all news and events for Servus throughout the province. News and events can be filtered by region and/or department.
+								<li>Each department acquiring a page to publish details about the department, what they do and where each of the teams and individuals are within an area.
+								<li>Replacing an email-based daily bulletin with news, events, announcements, alerts and recent updates integrated into the intranet for more engaging and up-to-date information published throughout the day.
+							</ul>	
+						<p>	
+						Employees can now view content by topic, banking system and region to filter information application to a specific member. There are more than 200 distributed content creators and authors, and 40 employees approving content. Servus’ intranet won Canada’s Best Intranet at the 2012 SharePoint Summit.
+						</p>
+						<p>	
+						Update: Matt B., Servus Manager of Digital Experience recently presented at our Better Intranets Conference and gave a few great tips about lessons learned. He suggested that taking the time to research your users helped engage the entire organization. Also, he strongly recommends using metadata over a folder structure anyday!
+						</p>	
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="stroke"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 pad-top">
+                    <div class="col-md-6 no-gutter">
+                        <div class="serv-nav">	<a href="service-description.html">Previous Case Study		</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 no-gutter">
+                        <div class="serv-nav"><a href="service-description.html">Next Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="copy cta">
+                        <p> <a href="#">Get in touch</a> about how we can help you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bar footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p> <a href="#">Contact us </a>about how we can help you. Stay connected with <a href="#">@nForm on Twitter.</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>
+                        <span>201-10237 104 Street NW
+                            <br/>Edmonton, Alberta, Canada T5J 1B1</span>
+                        <br/>Toll Free 1-800-670-7625</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>Copyright © 2003 - 2014 nForm User Experience Consulting.
+                        <br/>All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

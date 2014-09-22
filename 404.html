@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head></head><link rel="stylesheet" href="main.css"><link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"><link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300" rel="stylesheet" type="text/css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script src="bootstrap/js/bootstrap.min.js"></script><script type="text/javascript">$(document).ready(function(){
+ $(".serv-item").hide()
+ $("#default").show()
+ $(".serv-btn").click(function(){
+  $(".serv-btn").removeClass("services-sidebar-menu-selected")
+  var key = $(this).attr("name")
+  $(this).addClass("services-sidebar-menu-selected")
+  $(".serv-item").hide()
+  $("#" + key).toggle()
+ })
+})
+</script><body><h1>404</h1><h3>Whoops. Looks like what you're looking for can't be found.</h3></body></html>
